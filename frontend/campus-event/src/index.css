@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #6b46c1;
+    --secondary-color: #9f7aea;
+    --accent-color: #48bb78;
+    --text-color: #2d3748;
+    --background-color: #f7fafc;
+    --card-background: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+
+/* Update navbar styles */
+
+.navbar {
+    background-color: var(--card-background);
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(107, 70, 193, 0.1);
+}
+
+.nav-logo {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+
+/* Update hero section */
+
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    padding: 8rem 0 12rem 0;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
